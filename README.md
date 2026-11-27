@@ -1,6 +1,6 @@
 # CISCO AA23200 (3000W) PWM & Modbus RTU Controller
 
-A galvanically isolated **Modbus RTU**, **31 kHz Buck-PWM Fan Controller**, **4-Channel NTC Temperature Monitor**, and **I²C Telemetry Interface** designed to retrofit **Cisco / Artesyn AA23200 3000W Server PSUs** for CNC machines, lab power supplies, and industrial control cabinets. 
+A galvanically isolated **Modbus RTU**, **31 kHz Buck-PWM Fan Controller**, **4-Channel NTC Temperature Monitor**, and **I²C Telemetry Interface** designed to retrofit **Cisco / Astec AA23200 3000W Server PSUs** for CNC machines, lab power supplies, and industrial control cabinets. 
 
 This project was heavily inspired by this thread: https://forum.mosfetkiller.de/viewtopic.php?t=64061 and developed with AI assistance.
 
