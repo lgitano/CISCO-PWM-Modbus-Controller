@@ -31,5 +31,13 @@ Integrates directly into **LinuxCNC QtVCP / QtDragon** as a custom sub-panel.
    ~/linuxcnc/configs/<your_machine_config>/qtvcp/panels/cisco_panel.ui
    ~/linuxcnc/configs/<your_machine_config>/qtvcp/panels/cisco_panel_handler.py
    ```
-2. Reference the path to folder containing the standalone script 'pyqt_modbus.py' in 'cisco_panel_handler.py'  
-3. Reference `cisco_panel` in your machine's `.ini` file under `[DISPLAY]` (using `EMBED_TAB_NAME` / `EMBED_TAB_COMMAND = qtvcp cisco_panel`, depending on your QtDragon layout).
+2. **Set the script path in `cisco_panel_handler.py`:**
+   Open `cisco_panel_handler.py` and update the path pointing to the folder that contains the standalone `pyqt_modbus.py` script (so the QtVCP handler can import the shared Modbus/GUI logic).
+3. **Embed the tab in your machine's `.ini` file** under `[DISPLAY]`:
+   ```ini
+   [DISPLAY]
+   EMBED_TAB_NAME = Cisco PSU
+   EMBED_TAB_LOCATION = tabWidget_utilities
+   EMBED_TAB_COMMAND = qtvcp cisco_panel
+   ```
+   *(Depending on your QtDragon version, `EMBED_TAB_LOCATION` can also be `stackedWidget_mainTab` or `tabWidget_setup`.)*
