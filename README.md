@@ -4,7 +4,7 @@ A galvanically isolated **Modbus RTU**, **31 kHz Buck-PWM Fan Controller**, **4-
 
 This project was heavily inspired by this thread: https://forum.mosfetkiller.de/viewtopic.php?t=64061 and developed with AI assistance.
 
-![Board Preview](docs/pcb_overview.jpg)
+![Board Preview](media/pcb_overview.png)
 *(Replace with photo of assembled PCB / 3D-printed carrier inside the Cisco PSU)*
 
 ---
