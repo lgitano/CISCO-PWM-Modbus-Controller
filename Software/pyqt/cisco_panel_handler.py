@@ -1,7 +1,7 @@
 import sys
 from PyQt5.QtWidgets import QPushButton, QStackedWidget, QFrame, QSizePolicy
 
-sys.path.insert(0, "/media/gitano/DATA/Documents/Cisco_Umbau")
+sys.path.insert(0, "/path/to/folder/containing_pyqt_modbus.py/")
 from pyqt_modbus import CiscoQtDragonPanel
 
 
