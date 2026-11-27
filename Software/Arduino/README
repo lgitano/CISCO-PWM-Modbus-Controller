@@ -1,4 +1,4 @@
-Arduono Project Code for Arduino Nano, required Libs are:
+Arduino Project Code for Arduino Nano, required Libs are:
 
 - Wire
 - ModbusRTUSlave
