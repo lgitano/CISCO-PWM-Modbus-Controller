@@ -1,1 +1,13 @@
 
+PyQT Files:
+
+This is the standalone PyQT version, runs directly from the commandline via python3 pyqt_modbus.py:
+
+pyqt_modbus.py
+
+
+Put these in to our LinuxCNC homefolder under linuxcnc/config/"yourmachineconfig"/qtvcp/panels:
+
+cisco_panel.ui
+cisco_panel_handler.py
+	
