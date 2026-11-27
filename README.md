@@ -31,6 +31,7 @@ This project was heavily inspired by this thread: https://forum.mosfetkiller.de/
 ```text
 ├── Hardware/          # KiCad 10 project (.kicad_sch, .kicad_pcb), Gerbers, BOM & FreeCAD 3D carrier
 ├── Software/          # Arduino Nano firmware (31 kHz PWM, NTC Steinhart-Hart, Modbus RTU, ADM1041 I2C)
+├── media/             # pictures and documentation
 └── README.md          # Project documentation & pinout reference
 ```
 
