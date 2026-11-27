@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <widget class="QWidget" name="centralwidget">
+  <property name="geometry">
+   <rect><x>0</x><y>0</y><width>850</width><height>500</height></rect>
+  </property>
+  <layout class="QVBoxLayout" name="rootLayout">
+   <item>
+    <layout class="QHBoxLayout" name="tabButtonLayout">
+     <property name="spacing">
+      <number>4</number>
+     </property>
+     <item>
+      <widget class="QPushButton" name="btnTabInputs">
+       <property name="minimumSize">
+        <size><width>130</width><height>34</height></size>
+       </property>
+       <property name="text">
+        <string>CISCO 48V PSU</string>
+       </property>
+       <property name="checkable">
+        <bool>true</bool>
+       </property>
+       <property name="checked">
+        <bool>true</bool>
+       </property>
+       <property name="autoExclusive">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="btnTabOutputs">
+       <property name="minimumSize">
+        <size><width>130</width><height>34</height></size>
+       </property>
+       <property name="text">
+        <string>BUTTONS and RELAIS</string>
+       </property>
+       <property name="checkable">
+        <bool>true</bool>
+       </property>
+       <property name="autoExclusive">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <spacer name="tabBarSpacer">
+       <property name="orientation"><enum>Qt::Horizontal</enum></property>
+       <property name="sizeHint" stdset="0"><size><width>40</width><height>20</height></size></property>
+      </spacer>
+     </item>
+    </layout>
+   </item>
+   <item>
+    <widget class="QStackedWidget" name="systemStack">
+     <property name="currentIndex">
+      <number>0</number>
+     </property>
+     <widget class="QWidget" name="pageInputs">
+      <layout class="QHBoxLayout" name="inputsLayout">
+       <item>
+        <widget class="QFrame" name="ciscoContainer">
+         <property name="maximumSize">
+          <size><width>480</width><height>16777215</height></size>
+         </property>
+         <layout class="QVBoxLayout" name="ciscoLayout"/>
+        </widget>
+       </item>
+       <item>
+        <spacer name="horizontalSpacer">
+         <property name="orientation"><enum>Qt::Horizontal</enum></property>
+         <property name="sizeHint" stdset="0"><size><width>40</width><height>20</height></size></property>
+        </spacer>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QWidget" name="pageOutputs">
+      <layout class="QVBoxLayout" name="outputsLayout"/>
+     </widget>
+    </widget>
+   </item>
+  </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
+
